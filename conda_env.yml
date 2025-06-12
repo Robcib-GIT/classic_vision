@@ -1,0 +1,12 @@
+name: classic_vision
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - argparse
+      - opencv-python
+      - open3d
+      - matplotlib
