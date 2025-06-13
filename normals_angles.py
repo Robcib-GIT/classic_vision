@@ -1,7 +1,7 @@
 import argparse
 args = argparse.ArgumentParser(
     description="Extract surface normals from depth image and project onto RGB image.",
-    epilog="Example usage:\n  python extract_normals_angles_resize_640x640.py --depth path/to/depth.png --rgb path/to/rgb.png",
+    epilog="Example usage:\n  python normals_angles.py --depth depth.png --rgb rgb.png",
     formatter_class=argparse.RawDescriptionHelpFormatter
 )
 args.add_argument("--depth", type=str, required=True, help="Path to the depth image.")

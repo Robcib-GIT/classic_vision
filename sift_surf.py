@@ -2,7 +2,7 @@
 import argparse
 args = argparse.ArgumentParser(
     description="Extract SIFT keypoints from an RGB image and visualize them.",
-    epilog="Example usage:\n  python extract_sift_surf.py --rgb path/to/rgb.png",
+    epilog="Example usage:\n  python sift_surf.py --rgb rgb.png",
     formatter_class=argparse.RawDescriptionHelpFormatter
 )
 args.add_argument("--rgb", type=str, required=True, help="Path to the RGB image.")

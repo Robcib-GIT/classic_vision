@@ -1,7 +1,7 @@
 import argparse
 parser = argparse.ArgumentParser(
     description="Extract edges from an RGB image using Canny edge detection.",
-    epilog="Example: python extract_edges.py --rgb input.jpg --save_dir ./edges"
+    epilog="Example: python edges.py --rgb input.jpg"
 )
 parser.add_argument('--rgb', type=str, required=True, help='Path to the RGB image.')
 parser.add_argument('--save_dir', type=str, default='./edges', help='Directory to save the edge images.')

@@ -2,7 +2,7 @@ import argparse
 args = argparse.ArgumentParser(
     description="Script para extraer alturas estandarizadas de imágenes de profundidad y RGB.",
     epilog="Ejemplo de uso:\n"
-           "python standarization_heights.py --depth depth.png --rgb rgb.png --voxel_size 0.01 --scale 0.5",
+           "python heights.py --depth depth.png --rgb rgb.png",
     formatter_class=argparse.RawDescriptionHelpFormatter
 )
 args.add_argument('--depth', type=str, required=True, help='Ruta de la imagen de profundidad.')
