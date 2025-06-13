@@ -39,6 +39,8 @@ cv2.createTrackbar('Threshold 2', 'Canny Edge Detector', 150, 500, update_canny)
 # Mostrar la imagen inicial
 update_canny(None)
 
+print("[INFO] Press 's' to save the edge image, or ESC to exit.")
+
 # Esperar interacción
 while True:
     key = cv2.waitKey(1) & 0xFF
